@@ -49,7 +49,12 @@ php artisan:migrate
 php artisan db:seed
 ```
 
-### Program bisa dijalankan, apabila ada error dan lain sebagainya coba pakai ini
+### 9. Program bisa dijalankan
+```bash
+php artisan serve
+```
+
+### apabila ada error dan lain sebagainya coba pakai ini
 ```bash
 php artisan optimize:clear
 php artisan route:clear
