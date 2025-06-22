@@ -54,6 +54,17 @@ php artisan db:seed
 php artisan serve
 ```
 
+## Midtrans Configuration
+Edit file `.env` dan isi:
+
+```bash
+MIDTRANS_SERVER_KEY=your-server-key-here  
+MIDTRANS_CLIENT_KEY=your-client-key-here
+```
+
+Dapatkan API key dari dashboard Midtrans: https://dashboard.midtrans.com/
+
+
 ### apabila ada error dan lain sebagainya coba pakai ini
 ```bash
 php artisan optimize:clear
